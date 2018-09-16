@@ -40,4 +40,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<modules>
+		<module>pcstore-dao</module>
+		<module>pcstore-domain</module>
+		<module>pcstore-web</module>
+	</modules>
 </project>
