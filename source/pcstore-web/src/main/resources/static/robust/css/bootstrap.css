@@ -535,7 +535,7 @@ dl.row > dd + dt {
 .img-fluid, .carousel-inner > .carousel-item > img,
 .carousel-inner > .carousel-item > a > img {
   max-width: 100%;
-  height: 400px; }
+  height: auto; }
 
 .img-thumbnail {
   padding: 0.25rem;
