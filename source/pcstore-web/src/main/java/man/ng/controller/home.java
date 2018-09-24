@@ -21,5 +21,24 @@ public class home {
     public final String detailType() {
         return "detail-type/detail-type";
     }
+ 
+    @RequestMapping(value = "/buy-guide", method = RequestMethod.GET)
+    public final String buyGuide() {
+        return "buy-guide/buy-guide";
+    }
     
+    @RequestMapping(value = "/sale-off", method = RequestMethod.GET)
+    public final String saleOff() {
+        return "sale-off/sale-off";
+    }
+    
+    @RequestMapping(value = "/sell-policy", method = RequestMethod.GET)
+    public final String sellPolicy() {
+        return "sell-policy/sell-policy";
+    }
+    
+    @RequestMapping(value = "/ship-policy", method = RequestMethod.GET)
+    public final String shipPolicy() {
+        return "ship-policy/ship-policy";
+    }
 }
