@@ -41,4 +41,9 @@ public class home {
     public final String shipPolicy() {
         return "ship-policy/ship-policy";
     }
+    
+    @RequestMapping(value = "/cart", method = RequestMethod.GET)
+    public final String cart() {
+        return "cart/cart";
+    }
 }
